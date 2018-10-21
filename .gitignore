@@ -95,3 +95,4 @@ ssbio/test/test_files/out/
 ssbio/etc/
 /docs/source/
 /docs/notebooks/.ipynb_checkpoints/
+venv_ssbio/
