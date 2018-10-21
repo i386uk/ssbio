@@ -135,7 +135,7 @@ def parse_mmtf_header(infile):
     mmtf_decoder = mmtf.parse(infile)
     infodict['date'] = mmtf_decoder.deposition_date
     infodict['release_date'] = mmtf_decoder.release_date
-    infodict['experimental_method'] = [x.decode() for x in mmtf_decoder.experimental_methods]
+    infodict['experimental_method'] = mmtf_decoder.experimental_methods
     infodict['resolution'] = mmtf_decoder.resolution
     infodict['description'] = mmtf_decoder.title
 

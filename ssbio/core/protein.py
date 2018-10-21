@@ -1242,7 +1242,7 @@ class Protein(Object):
             infodict['pdb_id'] = p.id
             pdb_pre_df.append(infodict)
 
-        log.warning('Not showing info for {} mapped PDB entries, as they have not been downloaded yet. Run ')
+        # log.warning('Not showing info for {} mapped PDB entries, as they have not been downloaded yet. Run ')
 
         cols = ['pdb_id', 'pdb_title', 'description', 'experimental_method', 'mapped_chains',
                 'resolution', 'chemicals', 'date', 'taxonomy_name',
