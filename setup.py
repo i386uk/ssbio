@@ -5,12 +5,12 @@ with open('requirements.txt') as f:
 
 setup(
         name='ssbio-edbr',
-        version='0.9.9.6',
+        version='0.9.9.7',
         author='Xiaofan Li',
         author_email='xli@edbr.uk',
         license='MIT',
         url='http://github.com/i386uk/ssbio',
-        download_url='https://github.com/i386uk/ssbio/archive/v0.9.9.6-py3.tar.gz',
+        download_url='https://github.com/i386uk/ssbio/archive/v0.9.9.7.tar.gz',
         description='Tools to enable structural systems biology, forked from SBRG/ssbio',
         packages=find_packages(),
         package_dir={'ssbio': 'ssbio'},
